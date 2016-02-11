@@ -1,0 +1,5 @@
+AuthType basic
+AuthName "Username is Guest, contact me for the Password"
+AuthGroupFile /dev/null
+AuthUserFile /home/content/83/10247383/htconfig/.htpassword.ghtpassword
+Require user guest
