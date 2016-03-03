@@ -1,164 +1,137 @@
-<!DOCTYPE html>
-<html>
-<head>
-<b>2:42am This is a demo of a macro I created as a workaround to GoDaddy blocking root access on my server: </b>
-<ul>
-<li>Save the current file I'm working in</li>
-<li>Open up a console widnow using TotalTerminal (formerly visor)</li>
-<li>Type the git commands for status, add and status again to show me what I'm doing on git</li>
-<li>Leave me a prompt to type in my comment on this particular commit</li>
-<li>login to SSH</li>
-<li>Pull my changes onto my web server</li>
-</ul>
-<script src="script.js"></script>
-<!--<script src="udeme.js"></script>-->
-<b>
-</b>
-</head>
-</html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
 
-<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-<style>
-    body{
-        background-color: pink;
-    }
-  .red-text {
-    color: red;
-  }
 
-  h2 {
-    font-family: Lobster, Monospace;
-  }
 
-  p {
-    font-size: 16px;
-    font-family: Monospace;
-  }
-
-  .thick-green-border {
-    border-color: green;
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 50%;
-  }
-
-  .smaller-image {
-    width: 100px;
-  }
-
- .gray-background {
-    background-color: gray;
-  }
-  #first-div{
-      width: 300px;
-      border-radius: 10px;
-      border-color: white;
-      border-style: solid;
-      border-width: 3px;
-      padding: 20;
-      text-align: center;
-  }
-</style>
-
-<h2 class="red-text">CatPhotoApp</h2>
-
-<p>Click here for <a href="http://www.freecatphotoapp.com">cat photos</a>.</p>
-
-<img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat">
-
-<p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
-<p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
-
-<div id="first-div" class="gray-background">
-<p>Things cats love:</p>
-<ul>
-  <li>cat nip</li>
-  <li>laser pointers</li>
-  <li>lasagna</li>
-</ul>
-<p>Top 3 things cats hate:</p>
-<ol>
-  <li>flea treatment</li>
-  <li>thunder</li>
-  <li>other cats</li>
-</ol>
-</div>
-
-<form action="/do-something">
-    <label><input type="radio" name="radio-button-name"> First Radio Button</label>
-    <br>
-    <label><input type="radio" name="radio-button-name"> Second Radio Button</label>
-    <br>
-    <label><input type="checkbox" name="check-box-name"> First check box </label>
-    <br>
-    <label><input type="checkbox" name="check-box-name"> Second Check Box</label>
-    <br>
-    <input type="text" placeholder="Text in the box"></input>
-    <button type="submit">Submit the data for this form</buttons>
-</form>
-
-<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-<style>
-  .red-text {
-    color: red;
-  }
-
-  h2 {
-    font-family: Lobster, Monospace;
-  }
-
-  p {
-    font-size: 16px;
-    font-family: Monospace;
-  }
-
-  .thick-green-border {
-    border-color: green;
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 50%;
-  }
-
-  .smaller-image {
-    width: 100px;
-  }
-
-  .gray-background {
-    background-color: gray;
-  }
-  
-  #cat-photo-form{
-    background-color: green;
-  }
-</style>
-
-<h2 class="red-text">CatPhotoApp</h2>
-
-<p>Click here for <a href="#">cat photos</a>.</p>
-
-<a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back" src="https://bit.ly/fcc-relaxing-cat"></a>
-
-<div class="gray-background">
-  <p>Things cats love:</p>
-  <ul>
-    <li>cat nip</li>
-    <li>laser pointers</li>
-    <li>lasagna</li>
+<!-- <div id='top-div'>
+</div> -->
+<nav id="navbar" class="">
+  <ul class="navbar-fixed-top">
+    <li><a class="list1-items" href="#one">Home</a></li>
+    <li><a class="list1-items" href="#two">Portfolio</a></li>
+    <li><a class="list1-items" href="#three">About</a></li>
+    <li><a class="list1-items" href="#four">Contact</a></li>
   </ul>
-  <p>Top 3 things cats hate:</p>
-  <ol>
-    <li>flea treatment</li>
-    <li>thunder</li>
-    <li>other cats</li>
-  </ol>
-</div>
-
-<form action="/submit-cat-photo" id="cat-photo-form">
-  <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
-  <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
-  <label><input type="checkbox" name="personality" checked> Loving</label>
-  <label><input type="checkbox" name="personality"> Lazy</label>
-  <label><input type="checkbox" name="personality"> Energetic</label>
-  <input type="text" placeholder="cat photo URL" required>
-  <button type="submit">Submit</button>
-</form>
+</nav>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /> 
+<br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+ <br />
+<h1 id="one"><a href="#two">Lorem ipsum</a> dolor sit amet, consectetur adipisicing elit. Nobis consequatur pariatur mollitia, facilis quis molestias accusamus ipsam ut autem iure, natus error molestiae doloremque quo debitis distinctio nemo quasi facere?</h1>
+<h1 id="two"><a href="three">Lorem ipsum</a> dolor sit amet, consectetur adipisicing elit. Nobis consequatur pariatur mollitia, facilis quis molestias accusamus ipsam ut autem iure, natus error molestiae doloremque quo debitis distinctio nemo quasi facere?</h1>
+<h1 id="three">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis consequatur pariatur mollitia, facilis quis molestias accusamus ipsam ut autem iure, natus error molestiae doloremque quo debitis distinctio nemo quasi facere?</h1>
+<h1 id="four">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis consequatur pariatur mollitia, facilis quis molestias accusamus ipsam ut autem iure, natus error molestiae doloremque quo debitis distinctio nemo quasi facere?</h1>
+<h1 id="four">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis consequatur pariatur mollitia, facilis quis molestias accusamus ipsam ut autem iure, natus error molestiae doloremque quo debitis distinctio nemo quasi facere?</h1>
+<h1 id="four">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis consequatur pariatur mollitia, facilis quis molestias accusamus ipsam ut autem iure, natus error molestiae doloremque quo debitis distinctio nemo quasi facere?</h1>
+<h1 id="four">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis consequatur pariatur mollitia, facilis quis molestias accusamus ipsam ut autem iure, natus error molestiae doloremque quo debitis distinctio nemo quasi facere?</h1>
+<h1 id="four">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis consequatur pariatur mollitia, facilis quis molestias accusamus ipsam ut autem iure, natus error molestiae doloremque quo debitis distinctio nemo quasi facere?</h1>
+<h1 id="four">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis consequatur pariatur mollitia, facilis quis molestias accusamus ipsam ut autem iure, natus error molestiae doloremque quo debitis distinctio nemo quasi facere?</h1>
+<h1 id="four">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis consequatur pariatur mollitia, facilis quis molestias accusamus ipsam ut autem iure, natus error molestiae doloremque quo debitis distinctio nemo quasi facere?</h1>
