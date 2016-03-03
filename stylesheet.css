@@ -1,0 +1,62 @@
+#top-div {
+	width: 100%;
+	height: 10px;
+	background: #333333;
+  top: 0px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(43, 81, 115, .9);
+    width: 100%;
+    overflow: hidden;
+}
+
+#navbar ul li a{
+  background-color: rgba(126, 88, 153, .9);
+  color: black;
+  float: left;
+  width: 150px;
+  font-size: 20px;
+  padding: 8px 0px 8px 0px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+#navbar ul li a:hover {
+    background-color: #682C77;
+    color: white;
+}
+
+#buzzer-logo{
+	margin-top: 40px;
+	width: 100%;
+}
+
+#love{
+  top: 100px;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: absolute; 
+}
+
+#one {
+
+  background-color: RGB(67, 97, 124);
+  margin-top: 50px;
+  font-size: 30px;
+  color: white;
+}
+
+
+#two {
+  background-color: #5E899F;
+}
+
+#three {
+  background-color: #653B0F;
+}
